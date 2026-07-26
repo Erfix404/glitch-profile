@@ -1,29 +1,17 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="ERFIX_404 — Glitch Terminal" width="100%"/>
-
-<br/>
-
-```diff
-+ SYSTEM: ONLINE
-! MODE:  AI_AGENT · VIBE_CODER
-> BUILD: autonomous systems that ship
-```
-
-<br/>
-
-[![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0414)](#)
-[![AI Agents](https://img.shields.io/badge/AI_AGENTS-A855F7?style=for-the-badge&logo=openai&logoColor=white&labelColor=0a0414)](#)
-[![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white&labelColor=0a0414)](#)
-[![Vibe Code](https://img.shields.io/badge/VIBE_CODE-22D3EE?style=for-the-badge&logo=visualstudiocode&logoColor=black&labelColor=0a0414)](#)
+<img src="assets/banner.svg" alt="ERFIX_404 — NEURAL SENTINEL" width="100%"/>
 
 <br/>
 
 ```
-┌─────────────────────────────────────────────┐
-│  ░█░█░█░█░  GLITCH//TERMINAL  ░█░█░█░█░  │
-│  SYSTEM READY · AWAITING DEPLOYMENT         │
-└─────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│   ░█░█░█░█░  NEURAL SENTINEL  ░█░█░█░█░              │
+│   👾 Autonomous systems architect                      │
+│   STATUS: ● ONLINE / SHIPPING AGENTS                   │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
 ```
 
 </div>
@@ -31,22 +19,27 @@
 ---
 
 ```
-📁 ABOUT
-├─ Unit:     ERFIX_404
-├─ Role:     Builder of autonomous systems
-├─ Stack:    Python · AI Agents · n8n · Automation
-└─ Status:   ONLINE — shipping agents
+# SYSTEM STATUS
+
+  Unit   → ERFIX_404
+  Role   → AUTONOMOUS ARCHITECT
+  Stack  → Python · AI Agents · n8n · Automation
+  Status → ● ONLINE — shipping production agents
+
+  $ whoami
+  > Erfan (عرفان). Building things that run without me.
 ```
 
-```python
-@dataclass
-class Erfix:
-    """👾 Autonomous systems architect."""
-    alias: str   = "Erfix"
-    stack: list  = field(default_factory=lambda:
-        ["Python", "AI Agents", "n8n", "Automation"])
-    mood: str    = "👾"
-    status: str  = "shipping"
+---
+
+```
+# NEURAL METRICS
+
+  PYTHON_CORE     ████████████████████░░  88%
+  AI_AGENTS       ████████████████░░░░░░  72%
+  N8N_AUTOMATE    ██████████████░░░░░░░░  65%
+  VIBE_SHIP       █████████████████████░  94%
+  DOCKER_ORCH     ████████████░░░░░░░░░░  58%
 ```
 
 ---
@@ -54,15 +47,13 @@ class Erfix:
 ## 🕹️ TECH ARSENAL
 
 ```
-┌──────────────────────────────────────────────────────┐
-│  DOMAIN           │  STACK                           │
-├────────────────────┼──────────────────────────────────┤
-│  Languages        │  Python · JavaScript · Bash       │
-│  AI / Agents      │  LLMs · Tool-use · Multi-agent   │
-│  Automation       │  n8n · Cron · Webhooks · API     │
-│  Web              │  React · FastAPI · REST           │
-│  Infra            │  Docker · Linux · Git · CI/CD     │
-└──────────────────────────────────────────────────────┘
+  Domain          │  Stack
+ ─────────────────┼──────────────────────────────────
+  Languages       │  Python · JavaScript · TypeScript · Bash
+  AI / Agents     │  LLMs · Tool-use · Multi-agent · RAG
+  Automation      │  n8n · Cron · Webhooks · API orchestration
+  Web             │  React · FastAPI · REST
+  Infra           │  Docker · Linux · Git · CI/CD
 ```
 
 ---
@@ -70,20 +61,20 @@ class Erfix:
 ## 🚀 PROJECTS
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│  PROJECT           │  STACK         │  STATUS       │  WHAT      │
-├────────────────────┼────────────────┼───────────────┼────────────┤
-│  cafe-mehras       │  JavaScript    │  ⭐ 2 stars   │  Café ops  │
-│  hermes            │  Python        │  ⭐ 0 stars   │  AI agents │
-│  glitch-profile 🆕 │  SVG · Python  │  ACTIVE       │  This!     │
-└──────────────────────────────────────────────────────────────────┘
+  ┌────────────────────────────────────────────────────────────────────┐
+  │  Project           │  Stack         │  Status        │  What      │
+  ├────────────────────┼────────────────┼────────────────┼────────────┤
+  │  cafe-mehras       │  JavaScript    │  ⭐ 2 stars    │  Café ops  │
+  │  hermes            │  Python        │  ⭐ 0 stars    │  AI agents │
+  │  glitch-profile 🆕 │  SVG · Python  │  ACTIVE        │  This!     │
+  └────────────────────────────────────────────────────────────────────┘
 
-> more shipping soon — stay tuned
+  > more shipping soon — stay tuned
 ```
 
 ---
 
-## 📊 PULSE
+## 📈 PULSE
 
 <div align="center">
 
@@ -100,21 +91,21 @@ class Erfix:
 
 ---
 
-## 📈 STATS
+## 📊 STATS
+
+```
+─────────────────────────────────────────────────────────
+  METRIC           │  VALUE
+─────────────────────────────────────────────────────────
+  public_repos     │  4
+  followers        │  1
+  following        │  2
+  total_stars      │  2
+  ship_rate        │  ████████████████████░░  85%
+─────────────────────────────────────────────────────────
+```
 
 <div align="center">
-
-```
-───────────────────────────────────────────────
-  AGENT STATUS     │  METRIC      │  VALUE
-───────────────────────────────────────────────
-  public_repos     │  ● active    │  4
-  followers        │  ● tracking  │  1
-  following        │  ● linked    │  2
-  total_stars      │  ● earned    │  2
-  ship_rate        │  ● █████░░░  │  85%
-───────────────────────────────────────────────
-```
 
 [![Followers](https://img.shields.io/github/followers/Erfix404?style=for-the-badge&color=a855f7&labelColor=0a0414&label=👤%20Followers)](https://github.com/Erfix404)
 [![Stars](https://img.shields.io/github/stars/Erfix404?style=for-the-badge&color=22d3ee&labelColor=0a0414&label=⭐%20Stars)](https://github.com/Erfix404)
@@ -126,9 +117,9 @@ class Erfix:
 ## 💻 CURRENT MISSION
 
 ```
-  SHIPPING AGENTS    ████████████████░░░░  80%
-  n8n AUTOMATION     ██████████████░░░░░░  70%
-  VIBE PRODUCTS      █████████████████░░░  85%
+  SHIPPING AGENTS    ████████████████████░░  85%
+  AUTOMATION BUILDS  ████████████████░░░░░░  72%
+  VIBE PRODUCTS      █████████████████████░  91%
 ```
 
 ---
@@ -141,10 +132,14 @@ class Erfix:
 [![Profile Views](https://komarev.com/ghpvc/?username=Erfix404&style=for-the-badge&color=a855f7&labelColor=0a0414&label=👾+VIEWS)](https://github.com/Erfix404)
 
 ```
-███████████████████████████████████████████████
-█  ░█░█░█░█░  GLITCH//TERMINAL  ░█░█░█░█░  █
-█  ███████  👾  SYSTEM ONLINE  👾  ███████  █
-███████████████████████████████████████████████
+████████████████████████████████████████████████████████
+█                                                      █
+█   ░█░█░█░█░  NEURAL SENTINEL  ░█░█░█░█░           █
+█   ███████  👾  SYSTEM ONLINE  👾  ███████           █
+█   █████████████████████████████████████████████████  █
+█   ERFIX_404 // autonomous systems that ship         █
+█                                                      █
+████████████████████████████████████████████████████████
 ```
 
 </div>
