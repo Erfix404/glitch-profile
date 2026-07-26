@@ -1,108 +1,49 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="ERFIX_404 — NEURAL SENTINEL" width="100%"/>
+<img src="assets/banner.svg" alt="ERFIX_404" width="100%"/>
 
 <br/>
 <br/>
 
-```
-┌─────────────────────────────────────────────────────────┐
-│   ERFIX_404 — Neural Sentinel                          │
-│   ├─ role:  autonomous architect                       │
-│   ├─ stack: python · ai agents · n8n · vibe code       │
-│   └─ status: ● ONLINE / shipping                       │
-└─────────────────────────────────────────────────────────┘
+```ascii
+┌─────────────────────────────────────────────────────────────┐
+│  ERFIX_404 — Autonomous Architect                           │
+│  PY · AI · n8n · Vibe Code                                   │
+├─────────────────────────────────────────────────────────────┤
+│  🔭 building: autonomous agents, AI pipelines, web apps      │
+│  🌐 open source: github.com/Erfix404                         │
+│  💬 ask me: python, ai agents, n8n workflows                 │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 </div>
 
 ---
 
-```
-# SYSTEM
+### 🛠 Stack
 
-  Unit  → ERFIX_404
-  Role  → Autonomous Architect
-  Mood  → 👾 shipping agents
-  Stack → Python · AI Agents · n8n · Automation
-```
+`python` `javascript` `ai agents` `n8n` `react` `node` `docker`
 
----
-
-## 🕹️ ARSENAL
-
-```
-  Domain          │  Stack
- ─────────────────┼──────────────────────────────────
-  Languages       │  Python · JavaScript · TypeScript · Bash
-  AI / Agents     │  LLMs · Tool-use · Multi-agent · RAG
-  Automation      │  n8n · Cron · Webhooks · API orchestration
-  Web             │  React · FastAPI · REST
-  Infra           │  Docker · Linux · Git · CI/CD
-```
-
----
-
-## 🚀 PROJECTS
-
-```
-  ┌─────────────────────────────────────────────────────────────────┐
-  │  Project           │  Stack     │  Status        │  What       │
-  ├────────────────────┼────────────┼────────────────┼─────────────┤
-  │  cafe-mehras       │  JS        │  ⭐ 2 stars    │  Café ops   │
-  │  hermes            │  Python    │  ⭐ 0 stars    │  AI agents  │
-  │  glitch-profile    │  SVG/Py    │  🆕 ACTIVE     │  This!      │
-  └─────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 📊 PULSE
+### 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Erfix404&bg_color=0a0414&color=a855f7&line=22d3ee&point=ff3278&area=true&hide_border=true&radius=8" width="100%" alt="activity"/>
-
-<img src="https://raw.githubusercontent.com/Erfix404/Erfix404/main/assets/github-contribution-grid-snake-dark.svg" width="70%" alt="snake"/>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Erfix404&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=22d3ee&text_color=c4b5fd)](https://github.com/Erfix404)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Erfix404&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c4b5fd)](https://github.com/Erfix404)
 
 </div>
 
 ---
 
-## 📈 STATS
-
-```
-─────────────────────────────────────────────
-  METRIC          │  VALUE
-─────────────────────────────────────────────
-  public_repos    │  4
-  followers       │  1
-  following       │  2
-  total_stars     │  2
-  ship_rate       │  ████████████████░░░  85%
-─────────────────────────────────────────────
-```
-
 <div align="center">
 
-[![Followers](https://img.shields.io/github/followers/Erfix404?style=for-the-badge&color=a855f7&labelColor=0a0414&label=👤%20Followers)](https://github.com/Erfix404)
-[![Stars](https://img.shields.io/github/stars/Erfix404?style=for-the-badge&color=22d3ee&labelColor=0a0414&label=⭐%20Stars)](https://github.com/Erfix404)
-
-</div>
-
----
-
-## 🛸 CONNECT
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/ERFIX_404-0a0414?style=for-the-badge&logo=github&logoColor=a855f7&labelColor=0a0414)](https://github.com/Erfix404)
-[![Views](https://komarev.com/ghpvc/?username=Erfix404&style=for-the-badge&color=a855f7&labelColor=0a0414&label=👾+VIEWS)](https://github.com/Erfix404)
+[![wakatime](https://wakatime.com/badge/user/Erfix404.svg?style=for-the-badge)](https://wakatime.com/@Erfix404)
+[![visitors](https://komarev.com/ghpvc/?username=Erfix404&style=for-the-badge&color=a855f7&label=PROFILE+VIEWS)](https://github.com/Erfix404)
 
 ```
-███████████████████████████████████████████████
-█  👾  NEURAL SENTINEL — SYSTEM ONLINE  👾  █
-███████████████████████████████████████████████
+> system: online — v3.0.0
+> status: shipping
+> mood:   👾
 ```
 
 </div>
