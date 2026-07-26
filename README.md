@@ -5,26 +5,23 @@
 <br/>
 <br/>
 
-```ascii
-┌─────────────────────────────────────────────────────────────┐
-│  ERFIX_404 — Autonomous Architect                           │
-│  PY · AI · n8n · Vibe Code                                   │
-├─────────────────────────────────────────────────────────────┤
-│  🔭 building: autonomous agents, AI pipelines, web apps      │
-│  🌐 open source: github.com/Erfix404                         │
-│  💬 ask me: python, ai agents, n8n workflows                 │
-└─────────────────────────────────────────────────────────────┘
+```
+┌─────────────────────────────────────────────┐
+│  ERFIX_404 — Autonomous Architect           │
+│  PY · AI · n8n · Vibe Code                  │
+├─────────────────────────────────────────────┤
+│  → building agents, AI pipelines & tools    │
+│  → github.com/Erfix404                      │
+└─────────────────────────────────────────────┘
 ```
 
 </div>
-
----
 
 ### 🛠 Stack
 
 `python` `javascript` `ai agents` `n8n` `react` `node` `docker`
 
-### 📊 GitHub Stats
+### 📊 Stats
 
 <div align="center">
 
@@ -35,15 +32,8 @@
 
 ---
 
-<div align="center">
-
-[![wakatime](https://wakatime.com/badge/user/Erfix404.svg?style=for-the-badge)](https://wakatime.com/@Erfix404)
-[![visitors](https://komarev.com/ghpvc/?username=Erfix404&style=for-the-badge&color=a855f7&label=PROFILE+VIEWS)](https://github.com/Erfix404)
-
 ```
-> system: online — v3.0.0
+> system: online
 > status: shipping
 > mood:   👾
 ```
-
-</div>
