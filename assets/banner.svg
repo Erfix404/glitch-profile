@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="2" fill="rgba(0,0,0,0.12)"/>
+      <rect y="2" width="4" height="2" fill="rgba(255,255,255,0.02)"/>
+    </pattern>
+    <pattern id="dither" patternUnits="userSpaceOnUse" width="6" height="6">
+      <rect width="6" height="6" fill="#111"/>
+      <circle cx="0" cy="0" r="1.2" fill="#e0e0e0" opacity="0.6"/>
+      <circle cx="3" cy="3" r="1.2" fill="#e0e0e0" opacity="0.4"/>
+      <circle cx="5" cy="1" r="0.8" fill="#e0e0e0" opacity="0.3"/>
+      <circle cx="1" cy="5" r="0.8" fill="#e0e0e0" opacity="0.3"/>
+      <circle cx="4" cy="0" r="0.6" fill="#e0e0e0" opacity="0.2"/>
+      <circle cx="2" cy="4" r="0.6" fill="#e0e0e0" opacity="0.2"/>
+    </pattern>
+    <pattern id="dither-dark" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#0a0a0a"/>
+      <circle cx="2" cy="2" r="0.8" fill="#888" opacity="0.3"/>
+      <circle cx="0" cy="0" r="0.6" fill="#555" opacity="0.2"/>
+    </pattern>
+    <radialGradient id="crtscreen" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="85%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="eye-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#00cccc" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00ffff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      @keyframes blink { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
+      @keyframes pulse-glow { 0%,100% { opacity:0.6; } 50% { opacity:1; } }
+      @keyframes glitch-text {
+        0%,90%,100% { transform: translate(0); }
+        92% { transform: translate(-3px, 1px); }
+        94% { transform: translate(3px, -1px); }
+        96% { transform: translate(-1px, 0); }
+      }
+      .blink { animation: blink 1.2s infinite; }
+      .pulse { animation: pulse-glow 2s infinite; }
+      .glitch { animation: glitch-text 3s infinite; }
+    </style>
+  </defs>
+
+  <rect x="10" y="10" width="880" height="280" rx="18" fill="#3a3a3a" stroke="#555" stroke-width="3"/>
+  <rect x="16" y="16" width="868" height="268" rx="14" fill="#2a2a2a" stroke="#444" stroke-width="1"/>
+  <rect x="22" y="22" width="856" height="256" rx="10" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="30" y="30" width="720" height="240" rx="6" fill="url(#crtscreen)" stroke="#0a0a0a" stroke-width="2"/>
+  <rect x="30" y="30" width="720" height="240" rx="6" fill="url(#scanlines)"/>
+
+  <!-- LEFT SIDE: HOODED FIGURE -->
+  <g transform="translate(60, 50)">
+    <ellipse cx="150" cy="120" rx="90" ry="100" fill="url(#eye-glow)" opacity="0.15"/>
+    <path d="M120,40 Q150,30 180,40 L210,100 Q215,150 200,190 Q180,210 150,210 Q120,210 100,190 Q85,150 90,100 Z" fill="url(#dither)" stroke="#888" stroke-width="1"/>
+    <ellipse cx="150" cy="45" rx="65" ry="35" fill="url(#dither)" stroke="#999" stroke-width="1.5"/>
+    <ellipse cx="150" cy="55" rx="50" ry="10" fill="url(#dither-dark)" opacity="0.8"/>
+    <path d="M125,55 Q150,50 175,55 L180,100 Q150,110 120,100 Z" fill="#050505" opacity="0.9"/>
+    <rect x="115" y="72" width="70" height="5" fill="#333" opacity="0.7" class="glitch"/>
+
+    <!-- EYES -->
+    <circle cx="135" cy="80" r="8" fill="url(#eye-glow)" class="pulse"/>
+    <circle cx="165" cy="80" r="8" fill="url(#eye-glow)" class="pulse"/>
+    <polygon points="135,74 137,78 141,78 138,81 139,85 135,82 131,85 132,81 129,78 133,78" fill="#00ffff" opacity="0.95"/>
+    <polygon points="165,74 167,78 171,78 168,81 169,85 165,82 161,85 162,81 159,78 163,78" fill="#00ffff" opacity="0.95"/>
+
+    <path d="M100,190 Q110,220 120,240 L150,245 L180,240 Q190,220 200,190" fill="url(#dither)" stroke="#777" stroke-width="1" opacity="0.9"/>
+
+    <!-- Static noise particles -->
+    <circle cx="115" cy="100" r="1" fill="#fff" opacity="0.6"/>
+    <circle cx="180" cy="95" r="1" fill="#fff" opacity="0.4"/>
+    <circle cx="130" cy="130" r="0.8" fill="#fff" opacity="0.5"/>
+    <circle cx="170" cy="140" r="1" fill="#fff" opacity="0.3"/>
+    <circle cx="140" cy="160" r="0.8" fill="#fff" opacity="0.5"/>
+    <circle cx="160" cy="170" r="1.2" fill="#fff" opacity="0.3"/>
+    <circle cx="110" cy="150" r="0.7" fill="#fff" opacity="0.4"/>
+    <circle cx="190" cy="120" r="0.8" fill="#fff" opacity="0.3"/>
+    <circle cx="145" cy="55" r="0.8" fill="#fff" opacity="0.4"/>
+  </g>
+
+  <line x1="340" y1="50" x2="340" y2="250" stroke="#555" stroke-width="1" opacity="0.4"/>
+
+  <!-- RIGHT SIDE: SYSTEM PANEL -->
+  <g transform="translate(360, 50)">
+    <rect x="5" y="5" width="370" height="50" rx="4" fill="#111" stroke="#444" stroke-width="1"/>
+    <text x="15" y="25" font-family="'Courier New', monospace" font-size="11" fill="#888">UNIT_NAME</text>
+    <text x="15" y="46" font-family="'Courier New', monospace" font-size="22" fill="#c4b5fd" font-weight="bold">ERFIX_404</text>
+    <rect x="260" y="14" width="100" height="18" rx="3" fill="none" stroke="#22d3ee" stroke-width="1"/>
+    <text x="265" y="27" font-family="'Courier New', monospace" font-size="10" fill="#22d3ee">v3.0.0 · AI_CORE</text>
+
+    <rect x="5" y="62" width="370" height="95" rx="4" fill="#111" stroke="#444" stroke-width="1"/>
+    <text x="15" y="80" font-family="'Courier New', monospace" font-size="11" fill="#7c3aed" font-weight="bold">SYSTEM STATUS:</text>
+
+    <circle cx="18" cy="94" r="3" fill="#22d3ee" class="blink"/>
+    <text x="28" y="97" font-family="'Courier New', monospace" font-size="11" fill="#22d3ee">NEURAL_NETWORK</text>
+    <text x="220" y="97" font-family="'Courier New', monospace" font-size="11" fill="#a855f7">NOMINAL</text>
+    <circle cx="18" cy="112" r="3" fill="#22d3ee" class="blink"/>
+    <text x="28" y="115" font-family="'Courier New', monospace" font-size="11" fill="#22d3ee">SHIP_RATE</text>
+    <text x="220" y="115" font-family="'Courier New', monospace" font-size="11" fill="#a855f7">85%</text>
+    <circle cx="18" cy="130" r="3" fill="#ff3278" class="blink"/>
+    <text x="28" y="133" font-family="'Courier New', monospace" font-size="11" fill="#ff3278">AGENT_COUNT</text>
+    <text x="220" y="133" font-family="'Courier New', monospace" font-size="11" fill="#a855f7">7 ACTIVE</text>
+    <circle cx="18" cy="148" r="3" fill="#22d3ee" class="blink"/>
+    <text x="28" y="151" font-family="'Courier New', monospace" font-size="11" fill="#22d3ee">UPTIME</text>
+    <text x="220" y="151" font-family="'Courier New', monospace" font-size="11" fill="#a855f7">∞ (AUTONOMOUS)</text>
+
+    <rect x="5" y="164" width="370" height="36" rx="4" fill="#111" stroke="#444" stroke-width="1"/>
+    <polyline points="10,185 25,180 35,185 45,175 55,182 65,170 75,178 85,165 95,175 105,168 115,178 125,172 135,182 145,175 155,180 165,170 175,178 185,168 195,175 205,165 215,172 225,168 235,178 245,170 255,180 265,172 275,182 285,175 295,178 305,168 315,175 325,170 335,180 345,172 355,178 365,185 370,185" fill="none" stroke="#00ffff" stroke-width="1.2" opacity="0.8"/>
+    <polyline points="10,190 25,188 35,192 45,186 55,190 65,185 75,189 85,184 95,188 105,186 115,190 125,187 135,191 145,188 155,190 165,186 175,189 185,185 195,188 205,184 215,187 225,185 235,189 245,186 255,190 265,187 275,191 285,188 295,190 305,186 315,189 325,186 335,190 345,187 355,189 365,191 370,190" fill="none" stroke="#a855f7" stroke-width="0.8" opacity="0.5"/>
+
+    <rect x="55" y="208" width="14" height="14" rx="2" fill="#00ffff" opacity="0.8" class="blink"/>
+    <rect x="75" y="208" width="14" height="14" rx="2" fill="#ff3278" opacity="0.5"/>
+    <rect x="95" y="208" width="14" height="14" rx="2" fill="#22d3ee" opacity="0.8" class="blink"/>
+    <rect x="115" y="208" width="14" height="14" rx="2" fill="#a855f7" opacity="0.6"/>
+  </g>
+
+  <rect x="390" y="262" width="120" height="14" rx="3" fill="none" stroke="#555" stroke-width="0.5"/>
+  <text x="400" y="273" font-family="'Courier New', monospace" font-size="9" fill="#666">GLITCH//TERMINAL v1.0</text>
+
+  <circle cx="848" cy="40" r="5" fill="#22d3ee" opacity="0.9" class="blink"/>
+  <circle cx="848" cy="40" r="8" fill="none" stroke="#22d3ee" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="28" cy="28" r="4" fill="#555" stroke="#666" stroke-width="1"/>
+  <circle cx="872" cy="28" r="4" fill="#555" stroke="#666" stroke-width="1"/>
+  <circle cx="28" cy="272" r="4" fill="#555" stroke="#666" stroke-width="1"/>
+  <circle cx="872" cy="272" r="4" fill="#555" stroke="#666" stroke-width="1"/>
+</svg>
