@@ -1,7 +1,0 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='300'>
-  <rect width='1000' height='300' fill='#0a0414'/>
-  <text x='100' y='150' fill='#22d3ee' font-size='30' font-family='monospace' font-weight='bold'>ERFIX_404</text>
-  <text x='100' y='190' fill='#a855f7' font-size='16' font-family='monospace'>AUTONOMOUS ARCHITECT</text>
-  <circle cx='800' cy='150' r='50' fill='#a855f7' opacity='0.1'/>
-  <text x='800' y='155' fill='#c084fc' font-size='12' font-family='monospace' text-anchor='middle'>TEST</text>
-</svg>
